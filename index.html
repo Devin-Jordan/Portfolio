@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
     <title>Portfolio</title>
   </head>
   <body>
@@ -46,7 +54,6 @@
         <h1>Hello. I am Devin Jordan</h1>
         <h2>Thank you for coming to view my portfolio!</h2>
       </div>
-
       <div class="homeImage">
         <img
           class="selfImage"
@@ -56,26 +63,57 @@
       </div>
     </div>
 
-    <div class="wrapper" id="aboutMe">
-      <header class="header">About Me</header>
-
-      <div class="main">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi magni
-        distinctio esse quia tenetur eveniet explicabo, doloremque vitae
-        recusandae libero debitis ipsum provident eaque aspernatur asperiores
-        vero dolorem nihil fuga? Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Illum ea dolor culpa quidem officiis tempora
-        consequuntur hic earum delectus adipisci doloribus non quo cum
-        repellendus tenetur repudiandae dicta, error quia.
+    <div class="aboutWrapper" id="aboutMe">
+      <h1 class="aboutHeader">About Me</h1>
+      <div class="aboutPage">
+        <h2>
+          I am an apprentice at Base Camp Coding Academy looking to gain the
+          skills I need to become a well rounded fullstack developer. I'm an
+          easygoing person who loves playing video games and listening to music
+          in my free time. I first got an interest into the tech world from a
+          young age like many others. It all started with video games and
+          wondering how they were created. Later on in 2016 I built my first PC
+          and got an even bigger interest and love for tech.
+        </h2>
       </div>
-
-      <div class="side side1">Picture</div>
-
-      <!-- <footer class="footer">Contact me</footer> -->
     </div>
 
-    <div class="homeWrapper" id="skills"></div>
+    <div class="skillWrapper" id="skills">
+      <h1 class="skillsHeader">Skills</h1>
+      <div class="cardHolder">
+        <div class="skillCard">
+          <div class="skillLogo"><i class="bx bxl-python"></i></div>
+          <div class="skillName">Python</div>
+        </div>
+        <div class="skillCard">
+          <div class="skillLogo"><i class="bx bxl-html5"></i></div>
+          <div class="skillName">HTML</div>
+        </div>
+        <div class="skillCard">
+          <div class="skillLogo"><i class="bx bxl-css3"></i></div>
+          <div class="skillName">CSS</div>
+        </div>
+        <div class="skillCard">
+          <div class="skillLogo"><i class="bx bxl-git"></i></div>
+          <div class="skillName">Git</div>
+        </div>
+        <div class="skillCard">
+          <div class="skillLogo"><i class="bx bxl-visual-studio"></i></div>
+          <div class="skillName">Visual Studio Code</div>
+        </div>
+        <div class="skillCard">
+          <div class="skillLogo"><i class="bx bxs-bar-chart-square"></i></div>
+          <div class="skillName">Project Management</div>
+        </div>
+      </div>
+    </div>
 
-    <div class="homeWrapper" id="projects"></div>
+    <div class="projectsWrapper" id="projects">
+      <h2 class="projectsHeader">Projects</h2>
+      <div class="projectHolder">
+        <div class="projectThumb"></div>
+        <div class="projectName"></div>
+      </div>
+    </div>
   </body>
 </html>
