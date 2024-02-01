@@ -18,7 +18,7 @@ nav{
 }
 .name{
     color: white;
-    font-size: 55px;
+    font-size: 50px;
     line-height: 100px;
     padding: 0 20px;
     font-weight: bolder;
@@ -175,6 +175,8 @@ a.active,a:hover{
 
 .aboutPage{
     color: white;
+    width: 80%;
+    padding-left: 10%;
 
 }
 
@@ -199,7 +201,7 @@ a.active,a:hover{
 }
 
 .skillName{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: white;
     font-family: "Montserrat";
     font-weight: bold;
@@ -211,11 +213,14 @@ a.active,a:hover{
     flex-direction: row;
     width: 90%;
     justify-content: space-between;
+    padding-bottom: 4em;
 }
 
 .skillCard{
     text-align: center;
     padding-bottom: 70px;
+    /* background-color: #A52422; */
+    border-radius: 4em;
 }
 
 .projectsWrapper{
@@ -230,4 +235,11 @@ a.active,a:hover{
 .projectsHeader{
     color: white;
     font-size: 3em;
+}
+
+.projectThumb{
+    border-radius: 5rem 5rem 0 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
