@@ -16,7 +16,7 @@
   </head>
   <body>
     <div>
-      <nav>
+      <nav class="navBar">
         <input type="checkbox" id="check" />
         <label for="check" class="checkbutton">
           <svg
@@ -37,14 +37,12 @@
 
         <label class="name">Devin Jordan</label>
 
-        <ul>
-          <li><a class="active" href="#home">Home</a></li>
+        <ul class="linkList">
+          <li><a href="#home">Home</a></li>
           <li><a href="#aboutMe">About Me</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li>
-            <a href="resources/DevinJordanResume.pdf" target="_blank">Resume</a>
-          </li>
+          <li><a href="resources/DevinJordanResume.pdf" target="_blank">Resume</a></li>
         </ul>
       </nav>
     </div>
@@ -54,6 +52,11 @@
         <h1>Hello. I am Devin Jordan</h1>
         <h2><span class="textColor">Apprentice Software Developer</span></h2>
         <h2>Thank you for coming to view my portfolio!</h2>
+        <div class="contactLogos">
+          <a href="https://www.linkedin.com/in/devin-jordan-70523929a/" class="contactLink" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+          <a href ="mailto:devinrjordan123@gmail.com" class="contactLink" target="_blank"><i class="bx bxs-envelope"></i></a>
+          <a href="https://github.com/Devin-Jordan" class="contactLink" target="_blank"><i class="bx bxl-github"></i></a>
+        </div>
       </div>
       <div class="homeImage">
         <img
@@ -74,7 +77,7 @@
           in my free time. I first got an interest into the tech world from a
           young age like many others. It all started with video games and
           wondering how they were created. Later on in 2016 I built my first PC
-          and got an even bigger interest and love for tech.
+          and got an even bigger interest and love for tech. After high school I wasn't sure what I wanted to do yet and went to college for a while, unfortunately I had to leave for health issues. After that I have just worked several retail, restaurant, and other customer service jobs. Now at Base Camp I am looking to find a career and future from the skills I learn here.
         </h2>
       </div>
     </div>
@@ -113,47 +116,28 @@
       <h1 class="projectsHeader">Projects</h1>
       <div class="projectHolder">
         <div class="projectCard">
-          <div class="projectThumb">
-            <img src="images/hangman.jpg" alt="Hangman '95 logo" />
-          </div>
-          <div class="projectName">Unit 1 "Hangman '95"</div>
+          <div class="projectThumb"><img class="projectLogo" src="images/hangman.jpg" alt="Hangman '95 logo"/></div>
+          <div class="projectName"><a href="https://replit.com/@NathanMoss5/Hangman" class="projectLink" target="_blank">Hangman '95</a></div>
         </div>
         <div class="projectCard">
-          <div class="projectThumb">
-            <img
-              src="images/BCCA Cook Book.png"
-              alt="Base Camp Recipe Book image"
-            />
-          </div>
-          <div class="projectName">Unit 2 "Base Camp Recipe Book"</div>
+          <div class="projectThumb"><img class="projectLogo" src="images/BCCA Cook Book.png" alt="Base Camp Recipe Book image"/></div>
+          <div class="projectName"><a href="https://replit.com/@MichaelHarris47/Base-Camp-Cooking-Academy" class="projectLink" target="_blank">Base Camp Recipe Book</a></div>
         </div>
         <div class="projectCard">
-          <div class="projectThumb">
-            <!-- <img src="images/GOAT-Emblem.png" alt="G.O.A.T." /> -->
-          </div>
-          <div class="projectName">G.O.A.T. Site</div>
+          <div class="projectThumb"><img class="projectLogo" src="images/GOAT-Emblem.png" alt="G.O.A.T." /></div>
+          <div class="projectName"><a href="https://devin-jordan.github.io/G.O.A.T/" class="projectLink" target="_blank">G.O.A.T. Site</a></div>
+        </div>
+      </div>
+      <div class="projectHolder2">
+        <div class="projectCard">
+          <div class="projectThumb"><img class="projectLogo" src="images/charity-banner.JPG" alt="Charity banner logo" /></div>
+          <div class="projectName"><a href="https://devin-jordan.github.io/Charity-Site/" class="projectLink" target="_blank">Charity Site</a></div>
         </div>
         <div class="projectCard">
-          <div class="projectThumb">
-            <img src="images/charity-banner.JPG" alt="Charity banner logo" />
-          </div>
-          <div class="projectName">Charity Site</div>
-        </div>
-        <div class="projectCard">
-          <div class="projectThumb">
-            <img src="images/portfolio.jpg" alt="Portfolio photo" />
-          </div>
-          <div class="projectName">Portfolio</div>
+          <div class="projectThumb"><img class="projectLogo" src="images/portfolio.jpg" alt="Portfolio photo" /></div>
+          <div class="projectName"><a class="projectLink" href="https://devin-jordan.github.io/Portfolio/#home" target="_blank">Portfolio</a></div>
         </div>
       </div>
     </div>
-    <footer class="contact">
-      Contact me
-      <div class="contactLogos">
-        <i class="bx bxl-linkedin-square"></i>
-        <i class="bx bxs-envelope"></i>
-        <i class="bx bxl-github"></i>
-      </div>
-    </footer>
   </body>
 </html>
